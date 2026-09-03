@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  const VERSION_SUFFIX = '?v=site-refresh-20260902g';
+  const VERSION_SUFFIX = '?v=site-refresh-20260902h';
 
   const TOPICS = [
     {

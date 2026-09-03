@@ -2267,8 +2267,12 @@ button:focus-visible {
 }
 
 .synergy-brand {
+  align-self: center;
   flex: 0 0 auto;
+  margin-top: 0 !important;
   margin-right: 42px !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
   padding: 0;
 }
 

@@ -1,0 +1,57 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="accelerators"></paper-link><paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="nsymbolic"></paper-link>
+        <paper-link class="anchor" id="2025-04"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        ReCA: Integrated Acceleration for Real-Time and Efficient Cooperative Embodied Autonomous Agents
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Zishen Wan, Yuhang Du, Mohamed Ibrahim, Jiayi Qian, Jason Jabbour, Yang Zhao, Tushar Krishna, Arijit Raychowdhury, Vijay Janapa Reddi
+                    </span>
+                    <span class="paper-conference">
+                        ASPLOS 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('wan2025reca');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://dl.acm.org/doi/pdf/10.1145/3676641.3716016" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-nsymbolic">Nsymbolic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="wan2025reca" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Cooperative embodied systems—where multiple agents collaborate through integrated perception, planning, action, and advanced reasoning powered by large language models (LLMs)—hold great potential for tackling complex, long-horizon, and multi-objective tasks in real-world environments. Despite rapid algorithmic progress, deploying embodied agents on current systems remains challenging due to prolonged planning and communication latency, limited scalability, and heightened sensitivity in low-level execution—all contributing to significant system inefficiencies. This work introduces ReCA, a characterization and co-design framework dedicated to accelerating cooperative embodied agent systems, with the goal of enhancing both task efficiency and system scalability. On the algorithm level, ReCA enables efficient local model processing to mitigate substantial model computation costs. On the system level, it introduces a dual-memory structure integrating long-term and short-term memory, a hierarchical cooperative planning scheme supporting both centralized and decentralized collaboration, and a planning-guided multi-step execution mechanism for highly efficient and scalable cooperative computation. On the hardware level, ReCA employs a heterogeneous hardware architecture that couples a high-level planning GPU subsystem with a low-level planning accelerator subsystem to ensure robust and efficient task execution. Evaluated across long-horizon, multi-objective tasks, ReCA generalizes across diverse application scenarios and system scales, achieving a 4.3% increase in mission success rate and a 10.2× speedup compared to state-of-the-art cooperative embodied autonomous agent systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

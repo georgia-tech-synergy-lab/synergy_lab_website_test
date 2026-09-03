@@ -1,0 +1,53 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="noc"></paper-link>
+        <paper-link class="anchor" id="2023-04"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Proteus : HLS-based NoC Generator and Simulator
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Abhimanyu Rajeshkumar Bambhaniya, Yangyu Chen, Anshuman, Rohan Banerjee, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        DATE 2023
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('bambhaniya2023proteus');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://ieeexplore.ieee.org/document/10137173" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/synergy-noc-generators/Proteus" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-noc">NOC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="bambhaniya2023proteus" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Networks-on-chip (NoCs) form the backbone fabric for connecting multi-core SoCs containing several processor cores and memories. Design-space exploration (DSE) of NoCs is a crucial part of the SoC design process to ensure that it does not become a bottleneck. DSE today is often hindered by the inherent trade-off between software simulation vs hardware emulation/e- valuation. Software simulators are easily extendable and allow for the evaluation of new ideas but are not able to capture the hardware complexity. Meanwhile, RTL development is known to be time-consuming. This has forced DSE to use simulators followed by RTL development, evaluation and feedback, which slows down the overall design process. In an effort to tackle this problem, we present Proteus, a configurable and modular NoC simulator and RTL generator. Proteus is the first of its kind framework to use HLS compiler to develop NoCs from a C++ description of the N oC circuit. These generated N oCs can be simulated in software and tested on FPGAs. This allows users to do rapid DSE by providing the opportunity to tweak and test NoC architectures in real-time. We also compare Proteus-generated RTL with Chisel- generated and hand-written RTL in terms of area, timing and productivity. The ability to synthesize the NoC design on FPGAs can benefit large designs as the custom hardware results in faster run-time than cycle-accurate software simulators. Proteus is modeled similar to existing state-of-the-art simulators and offers users modifiable parameters to generate custom topologies, routing algorithms, and router microarchitectures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

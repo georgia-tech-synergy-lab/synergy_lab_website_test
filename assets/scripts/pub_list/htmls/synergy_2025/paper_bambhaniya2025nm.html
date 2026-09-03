@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="sparsity"></paper-link><paper-link class="anchor" id="llm"></paper-link>
+        <paper-link class="anchor" id="2025-03"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Progressive Gradient Flow for Robust N:M Sparsity Training in Transformers
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Abhimanyu Rajeshkumar Bambhaniya, Amir Yazdanbakhsh, Suvinay Subramanian, Sheng-Chun Kao, Shivani Agrawal, Utku Evci, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        CPAL 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('bambhaniya2025nm');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://arxiv.org/pdf/2402.04744" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/abhibambhaniya/progressive_gradient_flow_nm_sparsity" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-sparsity">Sparsity</span>
+                                <span class="paper-tag tag-llm">LLM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="bambhaniya2025nm" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            N:M Structured sparsity has garnered significant interest as a result of relatively modest overhead and improved efficiency. Additionally, this form of sparsity holds considerable appeal for reducing the memory footprint owing to their modest representation overhead. There have been efforts to develop training recipes for N:M structured sparsity, they primarily focus on low-sparsity regions (50%). Nonetheless, performance of models trained using these approaches tends to decline when confronted with high-sparsity regions (80%). In this work, we study the effectiveness of existing sparse training recipes at high-sparsity regions and argue that these methods fail to sustain the model quality on par with low-sparsity regions. We demonstrate that the significant factor contributing to this disparity is the presence of elevated levels of induced noise in the gradient magnitudes. To mitigate this undesirable effect, we employ decay mechanisms to progressively restrict the flow of gradients towards pruned elements. Our approach improves the model quality by up to 2% and 5% in vision and language models at high sparsity regime, respectively. We also evaluate the trade-off between model accuracy and training compute cost in terms of FLOPs. At iso-training FLOPs, our method performs better than conventional sparse training recipes, exhibiting an accuracy improvement of up to 2%.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

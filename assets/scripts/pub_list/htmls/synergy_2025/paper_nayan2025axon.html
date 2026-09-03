@@ -1,0 +1,53 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="accelerators"></paper-link>
+        <paper-link class="anchor" id="2025-03"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Axon: A Novel Systolic Array Architecture For Improved Run Time And Energy Efficient GeMM And Conv Operation With On-chip Im2col
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Md Mizanur Rahaman Nayan, Ritik Raj, Gouse Basha Shaik, Tushar Krishna, Azad J Naeemi
+                    </span>
+                    <span class="paper-conference">
+                        DATE 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('nayan2025axon');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10992860" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="nayan2025axon" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            General matrix multiplication (GeMM) is a core operation in virtually all AI applications. Systolic array (SA) based architectures have shown great promise as GeMM hardware accelerators thanks to their speed and energy efficiency. Unfortunately, SAs incur a linear delay in filling the operands, due to unidirectional propogation via pipeline latches. In this work, we propose a novel in-array data orchestration technique in SAs where we enable data feeding on the principal diagonal followed by bi-directional propagation. This improves the runtime by up to 2 × at minimal hardware overhead. In addition, the proposed data orchestration enables convolution lowering (known as im2col) using a simple hardware support to fully exploit input feature map reuse opportunity and significantly lower the off-chip memory traffic resulting in 1.2 ×throughput improvement and 2.17 × inference energy reduction during YOLOv3 and RESNET50 workload on average. In contrast, conventional data orchestration would require more elaborate hardware and control signals to implement im2col in hardware because of the data skew. We have synthesized and conducted place and route for 16×16 systolic arrays based on the novel and conventional orchestrations using ASAP 7nm PDK and found that our proposed approach results in 0.211% area and 1.6% power overheads.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

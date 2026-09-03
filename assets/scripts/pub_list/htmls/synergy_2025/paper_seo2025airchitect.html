@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="simulation"></paper-link>
+        <paper-link class="anchor" id="2025-03"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        AIRCHITECT v2: Learning the Hardware Accelerator Design Space Through Unified Representations
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Jamin Seo, Akshat Ramachandran, Yu-Chuan Chuang, Anirudh Itagi, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        DATE 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('seo2025airchitect');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10993035" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/maestro-project/AIrchitect-v2" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-simulation">Simulation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="seo2025airchitect" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Design space exploration (DSE) plays a crucial role in enabling custom hardware architectures, particularly for emerging applications like AI, where optimized and specialized designs are essential. With the growing complexity of deep neural networks (DNNs) and the introduction of advanced large language models (LLMs), the design space for DNN accelerators is expanding at an exponential rate. Additionally, this space is highly non-uniform and non-convex, making it increasingly difficult to navigate and optimize. Traditional DSE techniques rely on search-based methods, which involve iterative sampling of the design space to find the optimal solution. However, this process is both time-consuming and often fails to converge to the global optimum for such complex design spaces. Recently, AIRCHITECT V1, the first attempt to address the limitations of search-based techniques, transformed DSE into a constant-time classification problem using recommendation networks. However, AIRCHITECT V1 lacked generalizability and showed poor performance in complex design spaces. In this work, we propose AIRCHITECT V2, a more accurate and generalizable learning-based DSE technique applicable to large-scale design spaces that overcomes the shortcomings of earlier approaches. Specifically, we devise an encoder-decoder transformer model that (a) encodes the complex design space into a uniform intermediate representation using contrastive learning, and (b) leverages a novel unified representation blending the advantages of classification and regression to effectively explore large DSE spaces without sacrificing accuracy. Experimental results evaluated on 105 real DNN workloads demonstrate that, on average, AIRCHITECT V2 outperforms existing techniques by 15% in identifying optimal design points. Furthermore, to demonstrate the generalizability of our method, we evaluate performance on unseen model workloads and achieve a 1.7× improvement in inference latency on the identified hardware architecture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

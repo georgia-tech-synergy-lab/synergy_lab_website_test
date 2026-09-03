@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="nsymbolic"></paper-link>
+        <paper-link class="anchor" id="2024-10"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Thinking and moving: An Efficient Computing Approach for Integrated Task and Motion Planning in Cooperative Embodied AI Systems
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Zishen Wan, Yuhang Du, Mohamed Ibrahim, Yang Zhao, Tushar Krishna, Arijit Raychowdhury
+                    </span>
+                    <span class="paper-conference">
+                        ICCAD 2024
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('wan2024thinking');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://dl.acm.org/doi/pdf/10.1145/3676536.3698389" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-nsymbolic">Nsymbolic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="wan2024thinking" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Cooperative embodied AI systems—where multiple agents collaborate to accomplish complex, long-horizon tasks—hold significant promise for real-world applications. These systems integrate perception, cognition, and action through integrated task and motion planning (TAMP), leveraging the advanced reasoning and communication capabilities of large language models (LLMs). However, their efficiency is often hindered by high computational latency and redundant communication, primarily due to the reliance on LLMs for sequential planning decisions. In this paper, we aim to identify the inherent characteristics and optimization opportunities in cooperative embodied AI systems. We first present a cognitive-inspired modular framework encompassing perception, memory, communication, planning, and execution. We then conduct a detailed profiling analysis of two state-of-the-art cooperative embodied systems, revealing the significance of each module and identifying critical bottlenecks such as redundant message pre-generation and excessive LLM involvement in decision-making processes. Based on these insights, we propose several model- and system-level optimizations, including a planning-first communication strategy, selective multi-agent communication, and planning-guided multi-step execution. Evaluated across long-horizon cooperative tasks, these optimizations reduce the frequency of LLM inference runs, achieving an average 3.93× speedup in end-to-end task execution. Finally, we discuss key challenges and potential directions for embodied AI computing to further enhance system flexibility, efficiency, and scalability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="ai"></paper-link><paper-link class="anchor" id="accelerator"></paper-link>
+        <paper-link class="anchor" id="2023-05"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Hardware-Software co-design for real-time latency-accuracy navigation in tinyML applications
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Payman Behnam, Jianming Tong, Alind Khare, Yangyu Chen, Yue Pan, Pranav Gadikar, Abhimanyu Bambhaniya, Tushar Krishna, Alexey Tumanov
+                    </span>
+                    <span class="paper-conference">
+                        IEEE Micro
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('tong2023_sushi_journal');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://jmlr.org/papers/v24/23-0215.html" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-ai">AI</span>
+                                <span class="paper-tag tag-accelerator">Accelerator</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="tong2023_sushi_journal" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            tinyML applications increasingly operate in dynamically changing deployment scenarios, requiring optimizing for both accuracy and latency. Existing methods mainly target a single point in the accuracy/latency tradeoff space---insufficient as no single static point can be optimal under variable conditions. We draw on a recently proposed weight-shared SuperNet mechanism to enable serving a stream of queries that activates different SubNets within a SuperNet. This creates an opportunity to exploit the inherent temporal locality of different queries that use the same SuperNet. We propose a hardware-software co-design called SUSHI that introduces a novel SubGraph Stationary optimization. SUSHI consists of a novel FPGA implementation and a software scheduler that controls which SubNets to serve and what SubGraph to cache in real-time. SUSHI yields up to 32% improvement in latency, 0.98% increase in served accuracy, and achieves up to 78.7% saved off-chip energy across several neural network architectures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

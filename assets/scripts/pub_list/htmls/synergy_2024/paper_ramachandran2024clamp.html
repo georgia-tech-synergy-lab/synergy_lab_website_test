@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="quantization"></paper-link>
+        <paper-link class="anchor" id="2024-09"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Clamp-vit: Contrastive Data-Free Learning for Adaptive Post-Training Quantization of Vits
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Akshat Ramachandran, Souvik Kundu, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        ECCV 2024
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('ramachandran2024clamp');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-72855-6_18" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/georgia-tech-synergy-lab/CLAMP-ViT" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-quantization">Quantization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="ramachandran2024clamp" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            We present CLAMP-ViT, a data-free post-training quantization method for vision transformers (ViTs). We identify the limitations of recent techniques, notably their inability to leverage meaningful inter-patch relationships, which leads to the generation of simplistic and semantically vague data, thereby impacting quantization accuracy. CLAMP-ViT employs a two-stage approach, cyclically adapting between data generation and model quantization. Specifically, we incorporate a patch-level contrastive learning scheme to generate richer, semantically meaningful data. Furthermore, we leverage contrastive learning in layer-wise evolutionary search for fixed- and mixed-precision quantization to identify optimal quantization parameters while mitigating the effects of a non-smooth loss landscape. Extensive evaluations across various vision tasks demonstrate the superiority of CLAMP-ViT, with performance improvements of up to 3% in top-1 accuracy for classification, 0.6 mAP for object detection, and 1.5 mIoU for segmentation, achieving similar or better compression ratios compared to existing alternatives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

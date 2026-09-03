@@ -1,0 +1,57 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="ai"></paper-link><paper-link class="anchor" id="accelerator"></paper-link>
+        <paper-link class="anchor" id="2023-06"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Subgraph Stationary Hardware-Software Inference Co-Design
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Payman Behnam, Jianming Tong, Alind Khare, Yangyu Chen, Yue Pan, Pranav Gadikar, Abhimanyu Bambhaniya, Tushar Krishna, Alexey Tumanov
+                    </span>
+                    <span class="paper-conference">
+                        MLSys 2023
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('tong2023sushi');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://arxiv.org/abs/2306.17266" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-ai">AI</span>
+                                <span class="paper-tag tag-accelerator">Accelerator</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="tong2023sushi" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            A growing number of applications depend on Machine Learning (ML) functionality and benefits from both higher quality ML predictions and better timeliness (latency) at the same time. A growing body of research in computer architecture, ML, and systems software literature focuses on reaching better latency-accuracy tradeoffs for ML models. Efforts include compression, quantization, pruning, early-exit models, mixed DNN precision, as well as ML inference accelerator designs that minimize latency and energy, while preserving delivered accuracy. All of them, however, yield improvements for a single static point in the latency-accuracy tradeoff space. We make a case for applications that operate in dynamically changing deployment scenarios, where no single static point is optimal. We draw on a recently proposed weight-shared SuperNet mechanism to enable serving a stream of queries that uses (activates) different SubNets within this weight-shared construct. This creates an opportunity to exploit the inherent temporal locality with our proposed SubGraph Stationary (SGS) optimization. We take a hardware-software co-design approach with a real implementation of SGS in SushiAccel and the implementation of a software scheduler SushiSched controlling which SubNets to serve and what to cache in real-time. Combined, they are vertically integrated into SUSHI-an inference serving stack. For the stream of queries, SUSHI yields up to 25% improvement in latency, 0.98% increase in served accuracy. SUSHI can achieve up to 78.7% off-chip energy savings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

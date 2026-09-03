@@ -1,0 +1,1182 @@
+[
+  {
+    "title": "LLMET: Enabling Cross-Layer Evaluation of Emerging M3D Memories for Energy-Efficient LLM Serving",
+    "year": "2026"
+  },
+  {
+    "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+    "year": "2026"
+  },
+  {
+    "title": "Cross-layer design of vector-symbolic computing: Bridging cognition and brain-inspired hardware acceleration",
+    "year": "2026"
+  },
+  {
+    "title": "Closing the Efficiency Gap: AI Datacenter Co-design Roadmap for Scalable Training of LLMs",
+    "year": "2026"
+  },
+  {
+    "title": "A Workflow-Aware Serving Layer for Agentic Applications",
+    "year": "2026"
+  },
+  {
+    "title": "ASTRA-sim 3.0: Next-Level Distributed Machine Learning Simulations via High-Fidelity GPU and Infrastructure Modeling",
+    "year": "2026"
+  },
+  {
+    "title": "PCCL: Process Group-Aware Scalable and Generic Collective Algorithm Synthesizer",
+    "year": "2026"
+  },
+  {
+    "title": "How Far Can Disaggregation Go? A Design-Space Exploration of Attention-FFN Disaggregation for Efficient MoE LLM Serving",
+    "year": "2026"
+  },
+  {
+    "title": "First Demonstration of a 200×200 mm2 Glass Substrate for Large Area Packages",
+    "year": "2026"
+  },
+  {
+    "title": "MLCommons Chakra: Advancing Performance Benchmarking and Co-design using Standardized Execution Traces",
+    "year": "2026"
+  },
+  {
+    "title": "Privatar: Scalable Privacy-preserving Multi-user VR via Secure Offloading",
+    "year": "2026"
+  },
+  {
+    "title": "Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs",
+    "year": "2026"
+  },
+  {
+    "title": "Algorithm–Hardware Co-Design of Digital Compute-in-Memory Architecture Supporting Flexible and Temporal N: M Sparsity",
+    "year": "2026"
+  },
+  {
+    "title": "Towards System-2 AI: Workloads and Characterizations of Energy-Based Models",
+    "year": "2026"
+  },
+  {
+    "title": "Evaluating Cross-Architecture Performance Modeling of Distributed ML Workloads Using StableHLO",
+    "year": "2026"
+  },
+  {
+    "title": "MINISA: Minimal Instruction Set Architecture for Next-gen Reconfigurable Inference Accelerator",
+    "year": "2026"
+  },
+  {
+    "title": "Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns",
+    "year": "2026"
+  },
+  {
+    "title": "Win fast or lose slow: Balancing speed and accuracy in latency-sensitive decisions of llms",
+    "year": "2026"
+  },
+  {
+    "title": "FortiSky: Enhancing Adversarial and Bit-Error Robustness for Efficient and Secure Autonomous Systems",
+    "year": "2026"
+  },
+  {
+    "title": "Enabling ai asics for zero knowledge proof",
+    "year": "2026"
+  },
+  {
+    "title": "Slm-mux: Orchestrating small language models for reasoning",
+    "year": "2026"
+  },
+  {
+    "title": "Thinkv: Thought-adaptive kv cache compression for efficient reasoning models",
+    "year": "2026"
+  },
+  {
+    "title": "Flint: Compiler Enabled Cluster-Free Design Space Exploration for Distributed ML",
+    "year": "2026"
+  },
+  {
+    "title": "SCALE-Sim TPU: Validating and Extending SCALE-Sim for TPUs",
+    "year": "2026"
+  },
+  {
+    "title": "Compositional ai beyond llms: System implications of neuro-symbolic-probabilistic architectures",
+    "year": "2026"
+  },
+  {
+    "title": "Demystifying the cost versus benefits of sparse LLM acceleration",
+    "year": "2026"
+  },
+  {
+    "title": "Thunderagent: A simple, fast and program-aware agentic inference system",
+    "year": "2026"
+  },
+  {
+    "title": "A 40-nm programmable heterogeneous soc with 5.625/0.85 mb rram/sram for accelerating neuro-symbolic ai models",
+    "year": "2026"
+  },
+  {
+    "title": "SCALE: Tackling Communication Bottlenecks in Confidential Distributed Machine Learning",
+    "year": "2026"
+  },
+  {
+    "title": "Reason: Accelerating probabilistic logical reasoning for scalable neuro-symbolic intelligence",
+    "year": "2026"
+  },
+  {
+    "title": "Leveraging asic ai chips for homomorphic encryption",
+    "year": "2026"
+  },
+  {
+    "title": "Boosting Scalability and Performance: Macro Placement for Flexible 3D-Stacked ML Accelerators",
+    "year": "2026"
+  },
+  {
+    "title": "Scalable Synthesis of distributed LLM workloads through Symbolic Tensor Graphs",
+    "year": "2025"
+  },
+  {
+    "title": "Ockbench: Measuring the efficiency of llm reasoning",
+    "year": "2025"
+  },
+  {
+    "title": "Towards Understanding, Analyzing, and Optimizing Agentic AI Execution: A CPU-Centric Perspective",
+    "year": "2025"
+  },
+  {
+    "title": "STAGE: A Symbolic Tensor grAph GEnerator for distributed AI system co-design",
+    "year": "2025"
+  },
+  {
+    "title": "A cpu-centric perspective on agentic ai",
+    "year": "2025"
+  },
+  {
+    "title": "Quarch: A benchmark for evaluating llm reasoning in computer architecture",
+    "year": "2025"
+  },
+  {
+    "title": "Squareloop: Explore optimal authentication block strategy for ml",
+    "year": "2025"
+  },
+  {
+    "title": "OuroMamba: A data-free quantization framework for vision mamba",
+    "year": "2025"
+  },
+  {
+    "title": "Characterizing the efficiency of distributed training: A power, performance, and thermal perspective",
+    "year": "2025"
+  },
+  {
+    "title": "Accelerating LLM inference with flexible N: M sparsity via a fully digital compute-in-memory accelerator",
+    "year": "2025"
+  },
+  {
+    "title": "Efficient Processing of Neuro-Symbolic AI: A Tutorial and Cross-Layer Co-Design Case Study.",
+    "year": "2025"
+  },
+  {
+    "title": "Nsflow: An end-to-end fpga framework with scalable dataflow architecture for neuro-symbolic ai",
+    "year": "2025"
+  },
+  {
+    "title": "Fred: A wafer-scale fabric for 3d parallel dnn training",
+    "year": "2025"
+  },
+  {
+    "title": "Microscopiq: Accelerating foundational models through outlier-aware microscaling quantization",
+    "year": "2025"
+  },
+  {
+    "title": "CELLO: Co-designing Schedule and Hybrid Implicit/Explicit Buffer for Complex Tensor Reuse",
+    "year": "2025"
+  },
+  {
+    "title": "Optimizing Sparse/Dense VEGETA Accelerator Performance with Microscaling Quantization",
+    "year": "2025"
+  },
+  {
+    "title": "Cosmic: Enabling full-stack co-design and optimization of distributed machine learning systems",
+    "year": "2025"
+  },
+  {
+    "title": "Enabling unstructured sparse acceleration on structured sparse accelerators",
+    "year": "2025"
+  },
+  {
+    "title": "Flexinfer: Flexible LLM inference with CPU computations",
+    "year": "2025"
+  },
+  {
+    "title": "Ai metropolis: Scaling large language model-based multi-agent simulation with out-of-order execution",
+    "year": "2025"
+  },
+  {
+    "title": "TurboAttention: Efficient attention approximation for high throughputs llm",
+    "year": "2025"
+  },
+  {
+    "title": "Exploring constrained dataflow accelerators for real-time multi-task multi-model ml workloads",
+    "year": "2025"
+  },
+  {
+    "title": "Generative ai in embodied systems: System-level analysis of performance, efficiency and scalability",
+    "year": "2025"
+  },
+  {
+    "title": "Scale-sim v3: A modular cycle-accurate systolic accelerator simulator for end-to-end system analysis",
+    "year": "2025"
+  },
+  {
+    "title": "Layerdag: A layerwise autoregressive diffusion model for directed acyclic graph generation",
+    "year": "2025"
+  },
+  {
+    "title": "OneDSE: A Unified Microprocessor Metric Prediction and Design Space Exploration Framework",
+    "year": "2025"
+  },
+  {
+    "title": "MCMComm: hardware-software Co-optimization for end-to-end communication in multi-chip-modules",
+    "year": "2025"
+  },
+  {
+    "title": "Towards easy and realistic network infrastructure testing for large-scale machine learning",
+    "year": "2025"
+  },
+  {
+    "title": "MIST: A Co-Design Framework for Heterogeneous, Multi-Stage LLM Inference",
+    "year": "2025"
+  },
+  {
+    "title": "Understanding and Optimizing Multi-Stage AI Inference Pipelines",
+    "year": "2025"
+  },
+  {
+    "title": "Airchitect v2: Learning the hardware accelerator design space through unified representations",
+    "year": "2025"
+  },
+  {
+    "title": "Axon: A novel systolic array architecture for improved run time and energy efficient gemm and conv operation with on-chip im2col",
+    "year": "2025"
+  },
+  {
+    "title": "Reca: Integrated acceleration for real-time and efficient cooperative embodied autonomous agents",
+    "year": "2025"
+  },
+  {
+    "title": "Toward a standardized representation for deep learning collective algorithms",
+    "year": "2025"
+  },
+  {
+    "title": "Cogsys: Efficient and scalable neurosymbolic cognition system via algorithm-hardware co-design",
+    "year": "2025"
+  },
+  {
+    "title": "HARP: A Taxonomy for Heterogeneous and Hierarchical Processors for Mixed-reuse Workloads",
+    "year": "2025"
+  },
+  {
+    "title": "Polestar-cache: Reconciling parallel decoding and accuracy in diffusion LLMs via token drift-aware KV cache recalibration",
+    "year": "2025"
+  },
+  {
+    "title": "Recap: Training-free compensation for coarse activation channel pruning in compressed llms",
+    "year": "2025"
+  },
+  {
+    "title": "GEAR: An Efficient Error Reduction Framework for KV Cache Compression in LLM Inference.",
+    "year": "2024"
+  },
+  {
+    "title": "Enhancing scalability and performance in influence maximization with optimized parallel processing",
+    "year": "2024"
+  },
+  {
+    "title": "Inc2: Design of interconnection systems for composable chiplet architectures",
+    "year": "2024"
+  },
+  {
+    "title": "Tacos: Topology-aware collective algorithm synthesizer for distributed machine learning",
+    "year": "2024"
+  },
+  {
+    "title": "Remembering Arvind",
+    "year": "2024"
+  },
+  {
+    "title": "Thinking and moving: An efficient computing approach for integrated task and motion planning in cooperative embodied ai systems",
+    "year": "2024"
+  },
+  {
+    "title": "Special session: Neuro-symbolic architecture meets large language models: A memory-centric perspective",
+    "year": "2024"
+  },
+  {
+    "title": "Clamp-vit: Contrastive data-free learning for adaptive post-training quantization of vits",
+    "year": "2024"
+  },
+  {
+    "title": "Towards efficient neuro-symbolic ai: From workload characterization to hardware architecture",
+    "year": "2024"
+  },
+  {
+    "title": "Understanding performance implications of LLM inference on CPUs",
+    "year": "2024"
+  },
+  {
+    "title": "Real-Time Digital RF Emulation—Part II: A Near Memory Custom Accelerator",
+    "year": "2024"
+  },
+  {
+    "title": "Potato leaf disease detection using CNN",
+    "year": "2024"
+  },
+  {
+    "title": "Feather: A reconfigurable accelerator with data reordering support for low-cost on-chip dataflow switching",
+    "year": "2024"
+  },
+  {
+    "title": "FRED: Flexible reduction-distribution interconnect and communication implementation for wafer-scale distributed training of DNN models",
+    "year": "2024"
+  },
+  {
+    "title": "Algorithm-hardware co-design of distribution-aware logarithmic-posit encodings for efficient dnn inference",
+    "year": "2024"
+  },
+  {
+    "title": "SDQ: Sparse decomposed quantization for LLM inference",
+    "year": "2024"
+  },
+  {
+    "title": "Real-time Digital RF Emulation--II: A Near Memory Custom Accelerator",
+    "year": "2024"
+  },
+  {
+    "title": "Demystifying AI platform design for distributed inference of next-generation LLM models",
+    "year": "2024"
+  },
+  {
+    "title": "Accurate low-degree polynomial approximation of non-polynomial operators for fast private inference in homomorphic encryption",
+    "year": "2024"
+  },
+  {
+    "title": "Leveraging memory expansion to accelerate large-scale DL training",
+    "year": "2024"
+  },
+  {
+    "title": "Towards cognitive ai systems: Workload and characterization of neuro-symbolic ai",
+    "year": "2024"
+  },
+  {
+    "title": "LIBRA: Enabling workload-aware multi-dimensional network topology optimization for distributed training of large AI models",
+    "year": "2024"
+  },
+  {
+    "title": "Pipeorgan: Efficient inter-operation pipelining with flexible spatial organization and interconnects",
+    "year": "2024"
+  },
+  {
+    "title": "H3dfact: Heterogeneous 3d integrated cim for factorization with holographic perceptual representations",
+    "year": "2024"
+  },
+  {
+    "title": "Gear: An efficient kv cache compression recipe for near-lossless generative inference of llm",
+    "year": "2024"
+  },
+  {
+    "title": "Abstracting sparse DNN acceleration via structured sparse tensor decomposition",
+    "year": "2024"
+  },
+  {
+    "title": "Progressive gradient flow for robust N: M sparsity training in transformers",
+    "year": "2024"
+  },
+  {
+    "title": "Towards cognitive ai systems: a survey and prospective on neuro-symbolic ai",
+    "year": "2024"
+  },
+  {
+    "title": "Rethinking Network Fabric Architectures for Distributed AI/ML Platforms",
+    "year": "2024"
+  },
+  {
+    "title": "Demystifying platform requirements for diverse llm inference use cases",
+    "year": "2024"
+  },
+  {
+    "title": "MoE-ERAS: Expert Residency Aware Selection",
+    "year": "2024"
+  },
+  {
+    "title": "Layerdag: A layerwise autoregressive diffusion model of directed acyclic graphs for system",
+    "year": "2024"
+  },
+  {
+    "title": "Perspectives on AI architectures and codesign for Earth system predictability",
+    "year": "2024"
+  },
+  {
+    "title": "Introduction to the Special Issue on Next-Generation On-Chip and Off-Chip Communication Architectures for Edge, Cloud and HPC",
+    "year": "2023"
+  },
+  {
+    "title": "Snatch: Stealing neural network architecture from ml accelerator in intelligent sensors",
+    "year": "2023"
+  },
+  {
+    "title": "Session details: Session 2A: ML Design Space ExplorationGeneration",
+    "year": "2023"
+  },
+  {
+    "title": "Collaborative Research: Frameworks: Advancing Computer Hardware and Systems' Research Capability, Reproducibility, and Sustainability with the gem5 Simulator Ecosystem",
+    "year": "2023"
+  },
+  {
+    "title": "Hardware–software co-design for real-time latency–accuracy navigation in tiny machine learning applications",
+    "year": "2023"
+  },
+  {
+    "title": "Stift: A spatio-temporal integrated folding tree for efficient reductions in flexible dnn accelerators",
+    "year": "2023"
+  },
+  {
+    "title": "On continuing dnn accelerator architecture scaling using tightly coupled compute-on-memory 3-d ics",
+    "year": "2023"
+  },
+  {
+    "title": "TNT: A modular approach to traversing physically heterogeneous NOCs at bare-wire latency",
+    "year": "2023"
+  },
+  {
+    "title": "Efficient distributed inference of deep neural networks via restructuring and pruning",
+    "year": "2023"
+  },
+  {
+    "title": "Discrepancies of subtrees",
+    "year": "2023"
+  },
+  {
+    "title": "Exploring memory expansion designs for training mixture-of-experts models",
+    "year": "2023"
+  },
+  {
+    "title": "FPGA-based high-performance real-time emulation of radar system using direct path compute model",
+    "year": "2023"
+  },
+  {
+    "title": "Chakra: Advancing performance benchmarking and co-design using standardized execution traces",
+    "year": "2023"
+  },
+  {
+    "title": "Mitigating timing-based NoC side-channel attacks with LLC remapping",
+    "year": "2023"
+  },
+  {
+    "title": "PAF-FHE: Low-Cost Accurate Non-Polynomial Operator Polynomial Approximation in Fully Homomorphic Encryption Based ML Inference",
+    "year": "2023"
+  },
+  {
+    "title": "A high performance computing architecture for real-time digital emulation of RF interactions",
+    "year": "2023"
+  },
+  {
+    "title": "Characterization of data compression in datacenters",
+    "year": "2023"
+  },
+  {
+    "title": "Astra-sim2. 0: Modeling hierarchical networks and disaggregated systems for large-model training at scale",
+    "year": "2023"
+  },
+  {
+    "title": "Proteus: Hls-based noc generator and simulator",
+    "year": "2023"
+  },
+  {
+    "title": "AIrchitect: Automating Hardware Architecture and Mapping Optimization",
+    "year": "2023"
+  },
+  {
+    "title": "Flexagon: A multi-dataflow sparse-sparse matrix multiplication accelerator for efficient dnn processing",
+    "year": "2023"
+  },
+  {
+    "title": "Subgraph stationary hardware-software inference co-design",
+    "year": "2023"
+  },
+  {
+    "title": "Xrbench: An extended reality (xr) machine learning benchmark suite for the metaverse",
+    "year": "2023"
+  },
+  {
+    "title": "Vegeta: Vertically-integrated extensions for sparse/dense gemm tile acceleration on cpus",
+    "year": "2023"
+  },
+  {
+    "title": "Flat: An optimized dataflow for mitigating attention bottlenecks",
+    "year": "2023"
+  },
+  {
+    "title": "SPOCK: Reverse packet traversal for deadlock recovery",
+    "year": "2023"
+  },
+  {
+    "title": "Accelerating attention based models via HW-SW co-design using fine-grained sparsification",
+    "year": "2023"
+  },
+  {
+    "title": "TACOS: Topology-aware collective algorithm synthesizer for distributed training",
+    "year": "2023"
+  },
+  {
+    "title": "Exploiting Inter-Operation Data Reuse in Scientific Applications using GOGETA",
+    "year": "2023"
+  },
+  {
+    "title": "COMET: A comprehensive cluster design methodology for distributed deep learning training",
+    "year": "2022"
+  },
+  {
+    "title": "Guest Editorial: IEEE TC Special Issue: Hardware Acceleration of Machine Learning",
+    "year": "2022"
+  },
+  {
+    "title": "Microedge: A multi-tenant edge cluster system architecture for scalable camera processing",
+    "year": "2022"
+  },
+  {
+    "title": "Demystifying map space exploration for npus",
+    "year": "2022"
+  },
+  {
+    "title": "Routing",
+    "year": "2022"
+  },
+  {
+    "title": "Interface with System Architecture",
+    "year": "2022"
+  },
+  {
+    "title": "Training recipe for n: M structured sparsity with decaying pruning mask",
+    "year": "2022"
+  },
+  {
+    "title": "Impact of roce congestion control policies on distributed training of dnns",
+    "year": "2022"
+  },
+  {
+    "title": "Self adaptive reconfigurable arrays (SARA) learning flexible GEMM accelerator configuration and mapping-space using ML",
+    "year": "2022"
+  },
+  {
+    "title": "Enabling Real-time DNN Switching via Weight-Sharing",
+    "year": "2022"
+  },
+  {
+    "title": "A configurable architecture for efficient sparse fir computation in real-time radio frequency systems",
+    "year": "2022"
+  },
+  {
+    "title": "Themis: A network bandwidth-aware collective scheduling policy for distributed training of dl models",
+    "year": "2022"
+  },
+  {
+    "title": "A formalism of dnn accelerator flexibility",
+    "year": "2022"
+  },
+  {
+    "title": "On-chip networks",
+    "year": "2022"
+  },
+  {
+    "title": "Understanding the design-space of sparse/dense multiphase GNN dataflows on spatial accelerators",
+    "year": "2022"
+  },
+  {
+    "title": "Understanding data compression in warehouse-scale datacenter services",
+    "year": "2022"
+  },
+  {
+    "title": "Stay in your lane: A NoC with low-overhead multi-packet bypassing",
+    "year": "2022"
+  },
+  {
+    "title": "Magma: An optimization framework for mapping multiple dnns on multiple accelerator cores",
+    "year": "2022"
+  },
+  {
+    "title": "Networks-on-Chip",
+    "year": "2022"
+  },
+  {
+    "title": "Modeling Accelerator Design Space",
+    "year": "2022"
+  },
+  {
+    "title": "Putting it Together: Architecting a DNN Accelerator",
+    "year": "2022"
+  },
+  {
+    "title": "Dataflow and Data Reuse",
+    "year": "2022"
+  },
+  {
+    "title": "Orchestrating Compressed-Sparse Data",
+    "year": "2022"
+  },
+  {
+    "title": "Buffer Hierarchies",
+    "year": "2022"
+  },
+  {
+    "title": "Modeling and Evaluation",
+    "year": "2022"
+  },
+  {
+    "title": "Router Microarchitecture",
+    "year": "2022"
+  },
+  {
+    "title": "Flow Control",
+    "year": "2022"
+  },
+  {
+    "title": "Digamma: Domain-aware genetic algorithm for hw-mapping co-optimization for dnn accelerators",
+    "year": "2022"
+  },
+  {
+    "title": "DNNFuser: Generative pre-trained transformer as a generalized mapper for layer fusion in dnn accelerators",
+    "year": "2022"
+  },
+  {
+    "title": "Enabling flexibility for sparse tensor acceleration via heterogeneity",
+    "year": "2022"
+  },
+  {
+    "title": "A review on bioflocculation using microalgae for nutrient removal from wastewater",
+    "year": "2022"
+  },
+  {
+    "title": "Marvel: A data-centric approach for mapping deep learning operators on spatial accelerators",
+    "year": "2021"
+  },
+  {
+    "title": "Rasa: Efficient register-aware systolic array matrix engine for cpu",
+    "year": "2021"
+  },
+  {
+    "title": "SEEC: Stochastic escape express channel",
+    "year": "2021"
+  },
+  {
+    "title": "Stonne: Enabling cycle-level microarchitectural simulation for dnn inference accelerators",
+    "year": "2021"
+  },
+  {
+    "title": "NOCS 2021 Message from the Chairs",
+    "year": "2021"
+  },
+  {
+    "title": "DUB: Dynamic underclocking and bypassing in nocs for heterogeneous GPU workloads",
+    "year": "2021"
+  },
+  {
+    "title": "A novel network fabric for efficient spatio-temporal reduction in flexible DNN accelerators",
+    "year": "2021"
+  },
+  {
+    "title": "Union: A unified HW-SW co-design ecosystem in MLIR for evaluating tensor operations on spatial accelerators",
+    "year": "2021"
+  },
+  {
+    "title": "Technology-aware Router Architectures for On-Chip-Networks in Heterogeneous Technologies",
+    "year": "2021"
+  },
+  {
+    "title": "Airchitect: Learning custom architecture design and mapping space",
+    "year": "2021"
+  },
+  {
+    "title": "Evaluating spatial accelerator architectures with tiled matrix-matrix multiplication",
+    "year": "2021"
+  },
+  {
+    "title": "Enabling compute-communication overlap in distributed deep learning training platforms",
+    "year": "2021"
+  },
+  {
+    "title": "Extending sparse tensor accelerators to support multiple compression formats",
+    "year": "2021"
+  },
+  {
+    "title": "Architecture, dataflow and physical design implications of 3D-ICs for DNN-accelerators",
+    "year": "2021"
+  },
+  {
+    "title": "E3: A hw/sw co-design neuroevolution platform for autonomous learning in edge device",
+    "year": "2021"
+  },
+  {
+    "title": "Heterogeneous dataflow accelerators for multi-dnn workloads",
+    "year": "2021"
+  },
+  {
+    "title": "Pitstop: Enabling a virtual network free network-on-chip",
+    "year": "2021"
+  },
+  {
+    "title": "Clock delivery network design and analysis for interposer-based 2.5-D heterogeneous systems",
+    "year": "2021"
+  },
+  {
+    "title": "Efficiently solving partial differential equations in a partially reconfigurable specialized hardware",
+    "year": "2021"
+  },
+  {
+    "title": "Vision for Co-designing a Unified-Memory Centric Heterogeneous Node Architecture.",
+    "year": "2021"
+  },
+  {
+    "title": "ARIAA: Center for co-design of ARtificial Intelligence focused Architectures and Algorithms.",
+    "year": "2021"
+  },
+  {
+    "title": "Interconnect Modeling for Homogeneous and Heterogeneous Multiprocessors",
+    "year": "2021"
+  },
+  {
+    "title": "Bridging the Frequency Gap in Heterogeneous 3D SoCs through Technology-Specific NoC Router Architectures",
+    "year": "2021"
+  },
+  {
+    "title": "Dataflow-architecture co-design for 2.5 D DNN accelerators using wireless network-on-package",
+    "year": "2021"
+  },
+  {
+    "title": "Self-adaptive reconfigurable arrays (sara): Using ml to assist scaling gemm acceleration",
+    "year": "2021"
+  },
+  {
+    "title": "Proceedings of the 15th IEEE/ACM International Symposium on Networks-on-chip",
+    "year": "2021"
+  },
+  {
+    "title": "Exploring multi-dimensional hierarchical network topologies for efficient distributed training of trillion parameter dl models",
+    "year": "2021"
+  },
+  {
+    "title": "ATTACC the Quadratic Bottleneck of Attention Layers.",
+    "year": "2021"
+  },
+  {
+    "title": "Domain-specific genetic algorithm for multitenant dnnaccelerator scheduling",
+    "year": "2021"
+  },
+  {
+    "title": "Flexion: A quantitative metric for flexibility in DNN accelerators",
+    "year": "2020"
+  },
+  {
+    "title": "Gamma: Automating the hw mapping of dnn models on accelerators via genetic algorithm",
+    "year": "2020"
+  },
+  {
+    "title": "Confuciux: Autonomous hardware resource assignment for dnn accelerators using reinforcement learning",
+    "year": "2020"
+  },
+  {
+    "title": "Statistical array allocation and partitioning for compute in-memory fabrics",
+    "year": "2020"
+  },
+  {
+    "title": "Breaking barriers: Maximizing array utilization for compute in-memory fabrics",
+    "year": "2020"
+  },
+  {
+    "title": "ECOTLB: Eventually Consistent TLBs",
+    "year": "2020"
+  },
+  {
+    "title": "Architecture, chip, and package codesign flow for interposer-based 2.5-D chiplet integration enabling heterogeneous IP reuse",
+    "year": "2020"
+  },
+  {
+    "title": "CLAN: Continuous learning using asynchronous neuroevolution on commodity edge devices",
+    "year": "2020"
+  },
+  {
+    "title": "Astra-sim: Enabling sw/hw co-design exploration for distributed dl training platforms",
+    "year": "2020"
+  },
+  {
+    "title": "A systematic methodology for characterizing scalability of dnn accelerators using scale-sim",
+    "year": "2020"
+  },
+  {
+    "title": "Restructuring, pruning, and adjustment of deep models for parallel distributed inference",
+    "year": "2020"
+  },
+  {
+    "title": "Scalable distributed training of recommendation models: An astra-sim+ ns3 case-study with tcp/ip transport",
+    "year": "2020"
+  },
+  {
+    "title": "Data orchestration in deep learning accelerators",
+    "year": "2020"
+  },
+  {
+    "title": "Kite: A family of heterogeneous interposer topologies enabled via accurate interconnect modeling",
+    "year": "2020"
+  },
+  {
+    "title": "Co-exploration of neural architectures and heterogeneous asic accelerator designs targeting multiple tasks",
+    "year": "2020"
+  },
+  {
+    "title": "The gem5 simulator: Version 20.0+",
+    "year": "2020"
+  },
+  {
+    "title": "Stonne: A detailed architectural simulator for flexible neural network accelerators",
+    "year": "2020"
+  },
+  {
+    "title": "Generative Design of Hardware-aware DNNs",
+    "year": "2020"
+  },
+  {
+    "title": "Conditional Neural Architecture Search",
+    "year": "2020"
+  },
+  {
+    "title": "ARIAA: Progress ReportMay 2020.",
+    "year": "2020"
+  },
+  {
+    "title": "MINT: Microarchitecture for Efficient and Interchangeable CompressioN Formats on Tensor Algebra.",
+    "year": "2020"
+  },
+  {
+    "title": "Utilizing Spatial Accelerators for Machine Learning and Linear Algebra Kernels.",
+    "year": "2020"
+  },
+  {
+    "title": "Understanding reuse, performance, and hardware cost of DNN dataflows: A data-centric approach using MAESTRO",
+    "year": "2020"
+  },
+  {
+    "title": "Maestro: A data-centric approach to understand reuse, performance, and hardware cost of dnn mappings",
+    "year": "2020"
+  },
+  {
+    "title": "Sigma: A sparse and irregular gemm accelerator with flexible interconnects for dnn training",
+    "year": "2020"
+  },
+  {
+    "title": "Drain: Deadlock removal for arbitrary irregular networks",
+    "year": "2020"
+  },
+  {
+    "title": "Alrescha: A lightweight reconfigurable sparse-computation accelerator",
+    "year": "2020"
+  },
+  {
+    "title": "Efficient communication acceleration for next-gen scale-up deep learning training platforms",
+    "year": "2020"
+  },
+  {
+    "title": "MARVEL: A decoupled model-driven approach for efficiently mapping convolutions on spatial DNN accelerators",
+    "year": "2020"
+  },
+  {
+    "title": "Understanding the impact of on-chip communication on dnn accelerator performance",
+    "year": "2019"
+  },
+  {
+    "title": "Characterizing the deployment of deep neural networks on commercial edge devices",
+    "year": "2019"
+  },
+  {
+    "title": "Reinforcement learning based interconnection routing for adaptive traffic optimization",
+    "year": "2019"
+  },
+  {
+    "title": "Bindu: Deadlock-freedom with one bubble in the network",
+    "year": "2019"
+  },
+  {
+    "title": "A communication-centric approach for designing flexible DNN accelerators",
+    "year": "2019"
+  },
+  {
+    "title": "Understanding reuse, performance, and hardware cost of dnn dataflow: A data-centric approach",
+    "year": "2019"
+  },
+  {
+    "title": "SWAP: Synchronized weaving of adjacent packets for network deadlock resolution",
+    "year": "2019"
+  },
+  {
+    "title": "Scaling the cascades: Interconnect-aware FPGA implementation of machine learning problems",
+    "year": "2019"
+  },
+  {
+    "title": "Architecture, chip, and package co-design flow for 2.5 D IC design enabling heterogeneous IP reuse",
+    "year": "2019"
+  },
+  {
+    "title": "OAC Core: SHF: Small: Enabling Rapid Design and Deployment of Deep Learning Models on Hardware Accelerators",
+    "year": "2019"
+  },
+  {
+    "title": "mrna: Enabling efficient mapping space exploration for a reconfiguration neural accelerator",
+    "year": "2019"
+  },
+  {
+    "title": "MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerator via Reconfigurable Interconnects",
+    "year": "2019"
+  },
+  {
+    "title": "McMahon: Minimum-cycle Maximum-hop network",
+    "year": "2019"
+  },
+  {
+    "title": "Herald: Optimizing heterogeneous dnn accelerators for edge devices",
+    "year": "2019"
+  },
+  {
+    "title": "An edge-centric scalable intelligent framework to collaboratively execute dnn",
+    "year": "2019"
+  },
+  {
+    "title": "Merge network for a non-von Neumann accumulate accelerator in a 3D chip",
+    "year": "2018"
+  },
+  {
+    "title": "DNN-Dataflow-Hardware Co-Design for Enabling Pervasive General-Purpose AI",
+    "year": "2018"
+  },
+  {
+    "title": "Scalable distributed last-level tlbs using low-latency interconnects",
+    "year": "2018"
+  },
+  {
+    "title": "Genesys: Enabling continuous learning through neural network evolution in hardware",
+    "year": "2018"
+  },
+  {
+    "title": "Scale-sim: Systolic cnn accelerator simulator",
+    "year": "2018"
+  },
+  {
+    "title": "Brownian bubble router: Enabling deadlock freedom via guaranteed forward progress",
+    "year": "2018"
+  },
+  {
+    "title": "Architecting a secure wireless network-on-chip",
+    "year": "2018"
+  },
+  {
+    "title": "Scale-sim: Systolic CNN accelerator",
+    "year": "2018"
+  },
+  {
+    "title": "Student Travel Support for the 2018 Parallel Architectures and Compilation Techniques (PACT-18) Conference",
+    "year": "2018"
+  },
+  {
+    "title": "FastTrack: Leveraging heterogeneous FPGA wires to design low-cost high-performance soft NoCs",
+    "year": "2018"
+  },
+  {
+    "title": "Synchronized progress in interconnection networks (SPIN): A new theory for deadlock freedom",
+    "year": "2018"
+  },
+  {
+    "title": "SEESAW: Using superpages to improve VIPT caches",
+    "year": "2018"
+  },
+  {
+    "title": "MAESTRO: an open-source infrastructure for modeling dataflows within deep learning accelerators",
+    "year": "2018"
+  },
+  {
+    "title": "Performance implications of NoCs on 3D-stacked memories: Insights from the hybrid memory cube",
+    "year": "2018"
+  },
+  {
+    "title": "Optimizing the data placement and transformation for multi-bank CGRA computing system",
+    "year": "2018"
+  },
+  {
+    "title": "Maeri: Enabling flexible dataflow mapping over dnn accelerators via reconfigurable interconnects",
+    "year": "2018"
+  },
+  {
+    "title": "Latr: Lazy translation coherence",
+    "year": "2018"
+  },
+  {
+    "title": "FastTrack: Exploiting Fast FPGA Wiring for Implementing NoC Shortcuts",
+    "year": "2018"
+  },
+  {
+    "title": "Spoofing prevention via rf power profiling in wireless network-on-chip",
+    "year": "2018"
+  },
+  {
+    "title": "CRII: SHF: Enabling Neuroevolution in Hardware",
+    "year": "2018"
+  },
+  {
+    "title": "Enabling Continuous Learning through Neural Network Evolution in Hardware",
+    "year": "2018"
+  },
+  {
+    "title": "MAESTRO: An Open-source Infrastructure for the Cost-Benefit Analysis of Dataflows within Deep Learning Accelerators",
+    "year": "2018"
+  },
+  {
+    "title": "A case for low frequency single cycle multi hop NoCs for energy efficiency and high performance",
+    "year": "2017"
+  },
+  {
+    "title": "A load balance aware xy routing methodology for NoC architectures",
+    "year": "2017"
+  },
+  {
+    "title": "Adaptive manycore architectures for big data computing",
+    "year": "2017"
+  },
+  {
+    "title": "Rethinking NoCs for spatial neural network accelerators",
+    "year": "2017"
+  },
+  {
+    "title": "Lightweight emulation of virtual channels using swaps",
+    "year": "2017"
+  },
+  {
+    "title": "A detailed on-chip network model inside a full-system simulator",
+    "year": "2017"
+  },
+  {
+    "title": "OpenSMART: Single-cycle multi-hop NoC generator in BSV and Chisel",
+    "year": "2017"
+  },
+  {
+    "title": "Session details: Reliability and energy-efficiency: two pillars of NoC design",
+    "year": "2017"
+  },
+  {
+    "title": "Session details: Emerging NoC directions",
+    "year": "2017"
+  },
+  {
+    "title": "Automatic place-and-route of emerging LED-driven wires within a monolithically-integrated CMOS− III-V process",
+    "year": "2017"
+  },
+  {
+    "title": "FASHION: Fault-Aware Self-Healing Intelligent On-chip Network",
+    "year": "2017"
+  },
+  {
+    "title": "Static bubble: A framework for deadlock-free irregular on-chip topologies",
+    "year": "2017"
+  },
+  {
+    "title": "VESPA: VIPT Enhancements for Superpage Accesses",
+    "year": "2017"
+  },
+  {
+    "title": "Eyeriss: An energy-efficient reconfigurable accelerator for deep convolutional neural networks",
+    "year": "2016"
+  },
+  {
+    "title": "Efficient control and communication paradigms for coarse-grained spatial architectures",
+    "year": "2015"
+  },
+  {
+    "title": "Message broadcast with router bypassing",
+    "year": "2015"
+  },
+  {
+    "title": "Single-cycle collective communication over a shared network fabric",
+    "year": "2014"
+  },
+  {
+    "title": "Scorpio: 36-core shared memory processor demonstrating snoopy coherence on a mesh interconnect",
+    "year": "2014"
+  },
+  {
+    "title": "Smart: Single-cycle multihop traversals over a shared network on chip",
+    "year": "2014"
+  },
+  {
+    "title": "SCORPIO: A 36-core research chip demonstrating snoopy coherence on a scalable mesh NoC with in-network ordering",
+    "year": "2014"
+  },
+  {
+    "title": "Locality-oblivious cache organization leveraging single-cycle multi-hop NoCs",
+    "year": "2014"
+  },
+  {
+    "title": "Enabling dedicated single-cycle connections over a shared network-on-chip",
+    "year": "2014"
+  },
+  {
+    "title": "Single-cycle multihop asynchronous repeated traversal: A SMART future for reconfigurable on-chip networks",
+    "year": "2013"
+  },
+  {
+    "title": "Reconfigurable On-chip Network with Single-cycle Multi-hop Asynchronous Repeated Traversal",
+    "year": "2013"
+  },
+  {
+    "title": "SMART: A single-cycle reconfigurable NoC for SoC applications",
+    "year": "2013"
+  },
+  {
+    "title": "Breaking the on-chip latency barrier using SMART",
+    "year": "2013"
+  },
+  {
+    "title": "Swift: A low-power network-on-chip implementing the token flow control router architecture with swing-reduced interconnects",
+    "year": "2012"
+  },
+  {
+    "title": "Approaching the theoretical limits of a mesh NoC with a 16-node chip prototype in 45nm SOI",
+    "year": "2012"
+  },
+  {
+    "title": "Towards the ideal on-chip fabric for 1-to-many and many-to-1 communication",
+    "year": "2011"
+  },
+  {
+    "title": "A low-swing crossbar and link generator for low-power networks-on-chip",
+    "year": "2011"
+  },
+  {
+    "title": "The gem5 simulator",
+    "year": "2011"
+  },
+  {
+    "title": "BOOM: Broadcast Optimizations for On-chip Meshes",
+    "year": "2011"
+  },
+  {
+    "title": "The Gem5 Simulator. SIGARCH Comput. Archit. News 39, 2 (Aug. 2011), 1–7",
+    "year": "2011"
+  },
+  {
+    "title": "Swift: A swing-reduced interconnect for a token-based network-on-chip in 90nm cmos",
+    "year": "2010"
+  },
+  {
+    "title": "Physical vs. virtual express topologies with low-swing links for future many-core nocs",
+    "year": "2010"
+  },
+  {
+    "title": "Comparison of physical and virtual express topologies for future many-core on-chip networks",
+    "year": "2010"
+  },
+  {
+    "title": "Express virtual channels with capacitively driven global links",
+    "year": "2009"
+  }
+]

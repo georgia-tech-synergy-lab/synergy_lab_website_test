@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Publications | Synergy Lab @ Georgia Tech</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Search and browse publications from the Synergy Lab at Georgia Tech.">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
+  <link href="../assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+  <link href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../assets/css/theme.css" rel="stylesheet">
+  <link href="../assets/css/dropdownTheme.css" rel="stylesheet">
+  <link href="../assets/css/mytheme.css?v=site-refresh-20260902d" rel="stylesheet">
+  <link rel="preload" href="../assets/scripts/pub_list/papers.bundle.html?v=site-refresh-20260902d" as="fetch">
+</head>
+<body>
+<div data-site-header data-root=".."></div>
+
+<main class="main site-main synergy-page publication-main minh-100vh">
+  <section class="gt-page-hero publication-hero">
+    <div class="gt-page-hero__content">
+      <p class="gt-eyebrow">Publications</p>
+      <h1>Research papers</h1>
+      <p>Browse Synergy Lab publications by date and research area, including peer-reviewed work and recent arXiv preprints.</p>
+    </div>
+  </section>
+
+  <div class="publication-shell">
+    <aside class="publication-filters" aria-label="Publication filters">
+      <div class="publication-filter-card">
+        <div class="publication-filter-heading">
+          <p class="gt-eyebrow">Library</p>
+          <h2>Browse</h2>
+        </div>
+
+        <label class="publication-sidebar-search" for="publication-search-input">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <span class="sr-only">Search publications</span>
+          <input id="publication-search-input" type="search" placeholder="Title, venue, keyword, or author" autocomplete="off">
+        </label>
+
+        <div class="publication-filter-group">
+          <h3>Sort</h3>
+          <div class="publication-sort-controls" aria-label="Sort publications">
+            <button class="publication-sort-button is-active" type="button" data-sort="newest" aria-pressed="true">
+              <i class="fas fa-arrow-down" aria-hidden="true"></i>
+              Newest first
+            </button>
+            <button class="publication-sort-button" type="button" data-sort="oldest" aria-pressed="false">
+              <i class="fas fa-arrow-up" aria-hidden="true"></i>
+              Oldest first
+            </button>
+          </div>
+        </div>
+
+        <div class="publication-filter-group">
+          <h3>Topics</h3>
+          <div id="publication-topic-filters" class="publication-topic-filters" aria-label="Research topic filters"></div>
+        </div>
+
+      </div>
+    </aside>
+
+    <section class="publication-results" aria-labelledby="publication-results-title">
+      <header class="publication-results-header">
+        <div>
+          <p class="gt-eyebrow">Publication archive</p>
+          <h2 id="publication-results-title">All papers</h2>
+        </div>
+        <p id="publication-count" class="publication-count" aria-live="polite"></p>
+      </header>
+      <div id="paper-container" class="publication-list">
+        <div class="publication-loading" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<div data-site-footer data-root=".."></div>
+<div id="publicationAbstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+<script src="../assets/js/synergy-site.js?v=site-refresh-20260902d"></script>
+<script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="../assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+<script src="../assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/vendor/rellax/rellax.min.js"></script>
+<script src="../assets/js/theme.js?v=site-refresh-20260902d"></script>
+<script src="../assets/js/publications.js?v=site-refresh-20260902d"></script>
+</body>
+</html>

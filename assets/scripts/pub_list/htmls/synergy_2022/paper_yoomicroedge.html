@@ -1,0 +1,56 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="distributed"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="emerging"></paper-link>
+        <paper-link class="anchor" id="2022-12"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        MicroEdge: A Multi-Tenant Edge Cluster System Architecture for Scalable Camera Processing
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Difei Cao, Jinsun Yoo, Zhuangdi Xu, Enrique Saurez, Harshit Gupta, Tushar Krishna, Umakishore Ramachandran
+                    </span>
+                    <span class="paper-conference">
+                        Middleware 2022
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('yoomicroedge');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://dl.acm.org/doi/10.1145/3528535.3565254" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="#" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-distributed">Distributed</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-emerging">Emerging</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="yoomicroedge" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            With the proliferation of high bandwidth cameras and AR/VR devices, and their increasing use in situation awareness applications, edge computing is gaining prominence to meet the throughput requirements of such applications. This work focuses on camera applications that perform real-time Machine Learning inferences on camera frames. We find that Machine Learning based camera applications suffer from hardware resource fragmentation due to models under-utilizing or over-utilizing the accelerator. Meanwhile, it is challenging to support fine-grained resource sharing for accelerators such as TPUs because they can only process requests sequentially in a run to completion fashion. We present MicroEdge, a multi-tenant low-cost edge cluster for camera processing applications running at the edge. MicroEdge provides multi-tenancy support for Coral TPUs by extending K3s, an edge-specific distribution of Kubernetes. Through an admission control algorithm, it allows for fractional assignment of TPU resources commensurate with the application pipeline requirements to ensure that the TPUs are fully utilized. Using real-time camera processing applications and a real-world trace, we show that MicroEdge can support up to 2.8x camera streams for a given hardware configuration compared to vanilla K3s, while maintaining scalability and performance requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

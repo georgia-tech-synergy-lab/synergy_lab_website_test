@@ -1,0 +1,57 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="accelerators"></paper-link><paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="nsymbolic"></paper-link>
+        <paper-link class="anchor" id="2025-03"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Cogsys: Efficient and Scalable Neurosymbolic Cognition System via Algorithm-Hardware Co-Design
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Zishen Wan, Hanchen Yang, Ritik Raj, Che-Kai Liu, Ananda Samajdar, Arijit Raychowdhury, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        HPCA 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('wan2025cogsys');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://ieeexplore.ieee.org/document/10946710" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://effi-nesy.github.io" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-nsymbolic">Nsymbolic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="wan2025cogsys" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Neurosymbolic AI is an emerging compositional paradigm that fuses neural learning with symbolic reasoning to enhance the transparency, interpretability, and trustworthiness of AI. It also offers higher data efficiency, making it particularly promising for edge deployments. Despite these algorithmic advantages, executing neurosymbolic workloads on current hardware platforms (CPU/GPU/TPU) remains challenging due to high memory intensity, significant compute heterogeneity, and irregular access patterns, all of which lead to severe hardware underutilization. This work introduces CogSys, a characterization and co-design framework for accelerating neurosymbolic AI systems, aiming to achieve both reasoning efficiency and scalability. On the algorithm side, CogSys introduces an efficient factorization technique to mitigate compute and memory overhead. On the hardware side, it proposes a scalable neurosymbolic architecture featuring reconfigurable neuro/symbolic processing elements (nsPEs) and a bubble streaming (BS) dataflow with spatial-temporal (ST) mapping, enabling highly parallel and efficient neurosymbolic computation. On the system side, CogSys incorporates an adaptive workload-aware scheduler (adSCH) to orchestrate heterogeneous kernels and improve resource utilization. Evaluated across diverse cognitive workloads, CogSys provides reconfigurable support for both neural and symbolic kernels, achieving over 75× speedup compared to TPU-like systolic arrays with less than 5% area overhead, implemented under the TSMC 28 nm technology node. It also delivers 4×–96× speedup over desktop and edge GPUs. For the first time, CogSys enables real-time abduction reasoning toward human-like fluid intelligence, requiring only 0.3 s per reasoning task with a 4 mm² area and 1.48 W power consumption.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

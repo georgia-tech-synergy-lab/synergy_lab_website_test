@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="quantization"></paper-link><paper-link class="anchor" id="accelerators"></paper-link>
+        <paper-link class="anchor" id="2024-06"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Algorithm-hardware Co-Design of Distribution-Aware Logarithmic-Posit Encodings for Efficient DNN Inference
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Akshat Ramachandran, Zishen Wan, Geonhwa Jeong, John Gustafson, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        DAC 2024
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('ramachandran2024algorithm');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3649329.3656544" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/georgia-tech-synergy-lab/CLAMP-ViT" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-quantization">Quantization</span>
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="ramachandran2024algorithm" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Traditional deep neural network (DNN) quantization methods using integer or floating-point data types struggle to capture diverse DNN parameter distributions and often require large silicon overhead and intensive quantization-aware training. In this study, we introduce Logarithmic Posits (LP), an adaptive, hardware-friendly data type inspired by posits that dynamically adapts to DNN weight and activation distributions by parameterizing LP bit fields. We also develop a novel genetic algorithm–based framework, LP Quantization (LPQ), to find optimal layer-wise LP parameters while reducing representational divergence between quantized and full-precision models through a new global-local contrastive objective. Additionally, we design an LP accelerator (LPA) architecture comprising mixed-precision LP processing elements (PEs). Our algorithm–hardware co-design demonstrates on average less than 1% drop in top-1 accuracy across various CNN and ViT models. It also achieves approximately 2× improvements in performance per unit area and 2.2× gains in energy efficiency compared to state-of-the-art quantization accelerators using other data types.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

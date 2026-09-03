@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tools | Synergy Lab @ Georgia Tech</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
+  <link href="../assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+  <link href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../assets/css/theme.css" rel="stylesheet">
+  <link href="../assets/css/dropdownTheme.css" rel="stylesheet">
+  <link href="../assets/css/mytheme.css?v=site-refresh-20260902d" rel="stylesheet">
+</head>
+<body>
+<div data-site-header data-root=".."></div>
+
+<main class="main site-main synergy-page tools-page minh-100vh">
+  <section class="gt-page-hero">
+    <div class="gt-page-hero__content">
+      <p class="gt-eyebrow">Open Source</p>
+      <h1>Released tools</h1>
+      <p>Simulators, workload representations, cost models, RTL, and network infrastructure developed through Synergy Lab research.</p>
+    </div>
+  </section>
+
+  <section class="gt-section tools-catalog" aria-labelledby="tools-catalog-title">
+    <header class="tools-catalog__intro">
+      <div>
+        <p class="gt-eyebrow">Research Infrastructure</p>
+        <h2 id="tools-catalog-title">Tools for architecture and AI systems research</h2>
+      </div>
+      <p>Our open-source projects support system-scale analysis, accelerator design, and interconnection-network research.</p>
+    </header>
+
+    <div class="tools-groups">
+      <section class="tools-group" aria-labelledby="tools-distributed-title">
+        <header class="tools-group__header">
+          <div class="tools-group__marker" aria-hidden="true">
+            <span>01</span>
+            <i class="fas fa-server"></i>
+          </div>
+          <h3 id="tools-distributed-title">Distributed AI Systems</h3>
+          <p>Workloads and system-level infrastructure for studying large-scale AI training and inference.</p>
+        </header>
+
+        <div class="tools-list">
+          <article class="tools-entry">
+            <p class="tools-entry__kind">System simulator</p>
+            <h4>ASTRA-sim</h4>
+            <p>Models distributed AI workloads across configurable compute, memory, and network backends for end-to-end tradeoff studies.</p>
+            <a href="https://astra-sim.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit the ASTRA-sim website">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              <span>Website</span>
+            </a>
+          </article>
+
+          <article class="tools-entry">
+            <p class="tools-entry__kind">Workload representation</p>
+            <h4>Chakra</h4>
+            <p>Provides an open, interoperable graph representation and tools for capturing AI/ML execution traces and workload behavior.</p>
+            <a href="https://github.com/mlcommons/chakra" target="_blank" rel="noopener noreferrer" aria-label="View Chakra on GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="tools-group" aria-labelledby="tools-accelerators-title">
+        <header class="tools-group__header">
+          <div class="tools-group__marker" aria-hidden="true">
+            <span>02</span>
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3 id="tools-accelerators-title">AI Accelerators</h3>
+          <p>Simulation, analytical modeling, and implementation support for efficient AI accelerator design.</p>
+        </header>
+
+        <div class="tools-list">
+          <article class="tools-entry">
+            <p class="tools-entry__kind">Systolic-array simulator</p>
+            <h4>SCALE-Sim</h4>
+            <p>Reports cycle-accurate runtime, bandwidth demand, array utilization, and memory traces for systolic accelerators.</p>
+            <a href="https://scalesim-project.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit the SCALE-Sim website">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              <span>Website</span>
+            </a>
+          </article>
+
+          <article class="tools-entry">
+            <p class="tools-entry__kind">Dataflow cost model</p>
+            <h4>MAESTRO</h4>
+            <p>Evaluates the performance and energy implications of dataflows for deep-learning accelerator architectures.</p>
+            <a href="https://maestro.ece.gatech.edu/" target="_blank" rel="noopener noreferrer" aria-label="Visit the MAESTRO website">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              <span>Website</span>
+            </a>
+          </article>
+
+          <article class="tools-entry">
+            <p class="tools-entry__kind">Accelerator simulator</p>
+            <h4>STONNE</h4>
+            <p>Cycle-accurate simulation for flexible DNN accelerators across dense and sparse neural-network workloads.</p>
+            <a href="https://github.com/stonne-simulator/stonne" target="_blank" rel="noopener noreferrer" aria-label="View STONNE on GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+          </article>
+
+          <article class="tools-entry">
+            <p class="tools-entry__kind">RTL and compiler</p>
+            <h4>FEATHER</h4>
+            <p>A reconfigurable accelerator architecture with RTL and compiler support for mapping diverse DNN dataflows.</p>
+            <a href="https://github.com/maeri-project/FEATHER" target="_blank" rel="noopener noreferrer" aria-label="View FEATHER on GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="tools-group" aria-labelledby="tools-noc-title">
+        <header class="tools-group__header">
+          <div class="tools-group__marker" aria-hidden="true">
+            <span>03</span>
+            <i class="fas fa-project-diagram"></i>
+          </div>
+          <h3 id="tools-noc-title">Networks-on-Chip</h3>
+          <p>Detailed models and generators for evaluating scalable on-chip communication fabrics.</p>
+        </header>
+
+        <div class="tools-list">
+          <article class="tools-entry">
+            <p class="tools-entry__kind">NoC simulation</p>
+            <h4>Garnet 2.0</h4>
+            <p>The detailed network-on-chip model in gem5 Ruby for cycle-level router, link, topology, and traffic studies.</p>
+            <a href="https://www.gem5.org/documentation/general_docs/ruby/garnet-2/" target="_blank" rel="noopener noreferrer" aria-label="Read the Garnet 2.0 documentation">
+              <i class="fas fa-book-open" aria-hidden="true"></i>
+              <span>Documentation</span>
+            </a>
+          </article>
+
+          <article class="tools-entry">
+            <p class="tools-entry__kind">RTL generator</p>
+            <h4>OpenSMART</h4>
+            <p>Generates configurable RTL for low-latency, single-cycle multi-hop networks-on-chip.</p>
+            <a href="https://synergy.ece.gatech.edu/tools/opensmart/" target="_blank" rel="noopener noreferrer" aria-label="Visit the OpenSMART website">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              <span>Website</span>
+            </a>
+          </article>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<div data-site-footer data-root=".."></div>
+
+<script src="../assets/js/synergy-site.js?v=site-refresh-20260902d"></script>
+<script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="../assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+<script src="../assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/vendor/rellax/rellax.min.js"></script>
+<script src="../assets/js/theme.js?v=site-refresh-20260902d"></script>
+</body>
+</html>

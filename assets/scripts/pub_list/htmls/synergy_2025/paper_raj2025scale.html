@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="simulation"></paper-link><paper-link class="anchor" id="sparsity"></paper-link><paper-link class="anchor" id="accelerators"></paper-link>
+        <paper-link class="anchor" id="2025-05"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        SCALE-Sim v3: A Modular Cycle-accurate Systolic Accelerator Simulator For End-to-end System Analysis
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Ritik Raj, Sarbartha Banerjee, Nikhil Chandra, Zishen Wan, Jianming Tong, Ananda Samajdhar, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        ISPASS 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('raj2025scale');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/11096402" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/scalesim-project/SCALE-Sim" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-simulation">Simulation</span>
+                                <span class="paper-tag tag-sparsity">Sparsity</span>
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="raj2025scale" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            The rapid advancements in AI, scientific computing, and high-performance computing (HPC) have driven the need for versatile and efficient hardware accelerators. Existing tools like SCALE-Sim v2 provide valuable cycle-accurate simulations for systolic-array-based architectures but fall short in supporting key modern features such as sparsity, multi-core scalability, and comprehensive memory analysis. To address these limitations, we present SCALE-Sim v3 (GitHub Repository), a modular, cycle-accurate simulator that extends the capabilities of its predecessor. SCALE-Sim v3 introduces five significant enhancements: multi-core simulation with spatio-temporal partitioning and hierarchical memory structures, support for sparse matrix multiplications (SpMM) with layer-wise and row-wise sparsity, integration with Ramulator for detailed DRAM analysis, precise data layout modeling to minimize memory stalls, and energy and power estimation via Accelergy. These improvements enable deeper end-to-end system analysis for modern AI accelerators, accommodating a wide variety of systems and workloads and providing detailed full-system insights into latency, bandwidth, and power efficiency. A 128×128 array is 6.53× faster than a 32×32 array for ViTbase, using only latency as a metric. However, SCALE-Sim v3 finds that 32×32 is 2.86× more energy-efficient due to better utilization and lower leakage energy. For EdP, 64×64 outperforms both 128×128 and 32×32 for ViT-base. SCALE-Sim v2 shows a 21 % reduction in compute cycles for six ResNet18 layers using weight-stationary (WS) dataflow compared to outputstationary (OS). However, when factoring in DRAM stalls, OS dataflow exhibits 30.1% lower execution cycles compared to WS, highlighting the critical role of detailed DRAM analysis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

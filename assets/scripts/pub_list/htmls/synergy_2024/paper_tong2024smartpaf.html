@@ -1,0 +1,56 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="accelerator"></paper-link><paper-link class="anchor" id="fpga"></paper-link>
+        <paper-link class="anchor" id="2024-09"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Accurate Low-Degree Polynomial Approximation of Non-polynomial Operators for Fast Private Inference in Homomorphic Encryption
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Jianming Tong, Jingtian Dang, Anupam Golder, Callie Hao, Arijit Raychowdhury, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        MLSys 2024
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('tong2024smartpaf');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://arxiv.org/abs/2404.03216" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-accelerator">Accelerator</span>
+                                <span class="paper-tag tag-fpga">Fpga</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="tong2024smartpaf" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            As machine learning (ML) permeates fields like healthcare, facial recognition, and blockchain, the need to protect sensitive data intensifies. Fully Homomorphic Encryption (FHE) allows inference on encrypted data, preserving the privacy of both data and the ML model. However, it slows down non-secure inference by up to five magnitudes, with a root cause of replacing non-polynomial operators (ReLU and MaxPooling) with high-degree Polynomial Approximated Function (PAF). We propose SmartPAF, a framework to replace non-polynomial operators with low-degree PAF and then recover the accuracy of PAF-approximated model through four techniques: (1) Coefficient Tuning (CT) -- adjust PAF coefficients based on the input distributions before training, (2) Progressive Approximation (PA) -- progressively replace one non-polynomial operator at a time followed by a fine-tuning, (3) Alternate Training (AT) -- alternate the training between PAFs and other linear operators in the decoupled manner, and (4) Dynamic Scale (DS) / Static Scale (SS) -- dynamically scale PAF input value within (-1, 1) in training, and fix the scale as the running max value in FHE deployment. The synergistic effect of CT, PA, AT, and DS/SS enables SmartPAF to enhance the accuracy of the various models approximated by PAFs with various low degrees under multiple datasets. For ResNet-18 under ImageNet-1k, the Pareto-frontier spotted by SmartPAF in latency-accuracy tradeoff space achieves 1.42x ~ 13.64x accuracy improvement and 6.79x ~ 14.9x speedup than prior works. Further, SmartPAF enables a 14-degree PAF (f1^2 g_1^2) to achieve 7.81x speedup compared to the 27-degree PAF obtained by minimax approximation with the same 69.4% post-replacement accuracy. Our code is available at \url{https://github.com/EfficientFHE/SmartPAF
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

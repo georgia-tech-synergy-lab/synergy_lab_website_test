@@ -1,0 +1,57 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="accelerators"></paper-link><paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="nsymbolic"></paper-link>
+        <paper-link class="anchor" id="2026-03"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Compositional AI Beyond LLMs: System Implications of Neuro-Symbolic-Probabilistic Architectures
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Zishen Wan, Hanchen Yang, Jiayi Qian, Ritik Raj, Joongun Park, Chenyu Wang, Arijit Raychowdhury, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        ASPLOS 2026
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('wang2026compositional');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-nsymbolic">Nsymbolic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="wang2026compositional" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Large Language Models (LLMs) have driven remarkable progress in artificial intelligence (AI), yet their rapid growth faces mounting challenges, including unsustainable computational demand, limited robustness, and poor explainability. Compositional AI, which integrates LLMs with symbolic reasoning and probabilistic inference, has emerged as a promising paradigm to achieve interpretability, robustness, trustworthiness, and data-efficient learning. Recent neuro-symbolic-probabilistic systems demonstrate strong potential in agentic applications, advancing reasoning and cognitive capabilities toward more human-like intelligence. In this paper, we aim to understand the system implications of neuro-symbolic-probabilistic architectures. We first develop a taxonomy and analyze the scaling efficiency of these models. We then perform a detailed characterization across CPUs and GPUs, evaluating their runtime, memory behavior, compute operators, dataflow, scalability, communication overhead, and system-level behaviors. Our studies reveal that compositional models exhibit substantial inefficiencies on off-the-shelf hardware, constrained by heterogeneous compute kernels, irregular memory access, complex control flow, data dependencies, and high data movement costs. Guided by these insights, we propose several software- and system-level optimizations that demonstrate the potential to significantly improve the performance, efficiency, and scalability of neuro-symbolic-probabilistic computing. To our knowledge, this work is among the first holistic system-level analyses of compositional neuro-symbolic-probabilistic AI from both system and architectural perspectives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

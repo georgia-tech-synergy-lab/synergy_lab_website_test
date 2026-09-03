@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="accelerators"></paper-link><paper-link class="anchor" id="mlhw"></paper-link><paper-link class="anchor" id="dataflow"></paper-link>
+        <paper-link class="anchor" id="2025-05"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Exploring Constrained Dataflow Accelerators for Real-Time Multi-Task Multi-Model Ml Workloads
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Jamin Seo, Jianming Tong, Tushar Krishna, Hyoukjun Kwon
+                    </span>
+                    <span class="paper-conference">
+                        ISPASS 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('tong2025cda');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10992860" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                                <span class="paper-tag tag-mlhw">MLHW</span>
+                                <span class="paper-tag tag-dataflow">Dataflow</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="tong2025cda" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Emerging machine learning (ML) workloads, such as those in AR/VR applications or drones, exhibit real-time multitask multi-model (RT-MTMM) characteristics. These workloads demand efficient executions of diverse combinations of multiple models within strict real-time constraints and tight energy budgets. Consequently, optimizing hardware accelerator design and dataflow choices for such ML models becomes imperative. Flexible dataflows in hardware have been explored to enhance performance and energy efficiency for diverse models. However, this flexibility involves substantial hardware costs, potentially outweighing the performance benefits. While coarse-grained flexible accelerators, including heterogeneous dataflow accelerators [1], have been proposed to mitigate such costs, they may prove suboptimal depending on combinations of models, potentially leading to under-performance of the hardware. Hence, this paper investigates the desired balance between the benefits and costs of flexibility. We present a systematic and quantitative exploration of medium-grained flexible accelerators, demonstrating that constrained yet judicious domain-aware flexibility choices in tile sizes (T), loop order (O), parallel dimensions (P), and array shape (S) can allow RT-MTMM accelerators to achieve comparable real-time performance (×1.06/×1.13) and energy efficiency (×1.09/×1.07) to fully flexible designs with significantly lower area overhead (×0.67×0.91) on edge/mobilescale accelerators.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

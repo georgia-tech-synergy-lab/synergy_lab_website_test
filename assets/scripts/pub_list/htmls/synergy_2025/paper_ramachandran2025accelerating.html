@@ -1,0 +1,56 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="llm"></paper-link><paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="accelerators"></paper-link><paper-link class="anchor" id="sparsity"></paper-link>
+        <paper-link class="anchor" id="2025-08"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        Accelerating LLM Inference with Flexible N:M Sparsity via a Fully Digital Compute-in-Memory Accelerator
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Akshat Ramachandran, Souvik Kundu, Arnab Raha, Shamik Kundu, Deepak K Mathaikutty, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        ISLPED 2025 (Best Paper Award)
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('ramachandran2025accelerating');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://arxiv.org/pdf/2504.14365?" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/FLOW-open-project/FLOW" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-llm">LLM</span>
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-accelerators">Accelerators</span>
+                                <span class="paper-tag tag-sparsity">Sparsity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="ramachandran2025accelerating" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            Large language model (LLM) pruning with fixed N:M structured sparsity significantly limits the expressivity of the sparse model, yielding sub-optimal performance. On the contrary, supporting more than one N:M pattern to provide sparse representational freedom introduces costly overhead in the hardware. To mitigate these challenges for LLMs, we present a flexible layer-wise outlier-density-aware N:M sparsity (FLOW) selection method. FLOW enables the identification of optimal layer-wise N and M values (from a given range) by simultaneously accounting for the presence and distribution of outliers, allowing a higher degree of representational freedom. To deploy sparse models with such N:M flexibility, we then introduce a flexible, low-overhead digital compute-in-memory architecture (FlexCiM). FlexCiM supports diverse sparsity patterns by partitioning a digital compute-in-memory (DCiM) macro into smaller sub-macros that are adaptively aggregated and disaggregated through distribution and merging mechanisms for different values of N and M. Extensive experiments on both transformer-based and recurrence-based state space foundation models (SSMs) demonstrate that FLOW outperforms existing alternatives with an accuracy improvement of up to 36%, while FlexCiM delivers up to 1.75× lower inference latency and 1.5× lower energy consumption compared to existing sparse accelerators.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>

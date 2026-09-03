@@ -1,0 +1,55 @@
+<div class="mb-8">
+    <div class="paper">
+        <paper-link class="anchor" id="algorithms"></paper-link><paper-link class="anchor" id="systems"></paper-link><paper-link class="anchor" id="quantization"></paper-link>
+        <paper-link class="anchor" id="2025-10"></paper-link>
+        <ol>
+            <div class='row paper-entry'>
+                <div class="col-12">
+                    <span class="paper-title">
+                        OuroMamba: A Data-Free Quantization Framework for Vision Mamba
+                    </span> 
+                    <br />
+                    <span class="paper-authors">
+                        Akshat Ramachandran, Mingyu Lee, Huan Xu, Souvik Kundu, Tushar Krishna
+                    </span>
+                    <span class="paper-conference">
+                        ICCV 2025
+                    </span>
+
+                    <div class="paper-links">
+                        <a href="javascript:expand_abstract('ramachandran2025ouromamba');" class="paper-action">
+                            📄 <span>Abstract</span>
+                        </a>
+                        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Ramachandran_OuroMamba_A_Data-Free_Quantization_Framework_for_Vision_Mamba_ICCV_2025_paper.pdf" target="_blank" class="paper-action">
+                            📑 <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/georgia-tech-synergy-lab/ICCV-OuroMamba" target="_blank" class="paper-action">
+                            💻 <span>Code</span>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="paper-action dropdown-toggle" onclick="toggleTags(event)">
+                                🏷️ <span>Paper Tags</span>
+                            </button>
+                            <div id="tagsContainer" class="tags-container hidden">
+                                <span class="paper-tag tag-algorithms">Algorithms</span>
+                                <span class="paper-tag tag-systems">Systems</span>
+                                <span class="paper-tag tag-quantization">Quantization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abstractOverlay" class="abstract-overlay" onclick="closeAbstract()"></div>
+
+                    <div id="ramachandran2025ouromamba" class="abstract-section">
+                        <button class="close-btn" onclick="closeAbstract()">✖</button>
+                        <h2>Abstract</h2>
+                        <p class="abstract-text">
+                            We present OuroMamba, the first data-free post-training quantization (DFQ) method for vision Mamba-based models (VMMs). We identify two key challenges in enabling DFQ for VMMs: (1) VMM’s recurrent state transitions restrict the capturing of long-range interactions and lead to semantically weak synthetic data, and (2) VMM activations exhibit dynamic outlier variations across time steps, rendering existing static PTQ techniques ineffective. To address these challenges, OuroMamba introduces a two-stage framework: (1) OuroMamba-Gen, which generates semantically rich and meaningful synthetic data by applying contrastive learning on patch-level VMM features generated through neighborhood interactions in the latent state space, and (2) OuroMamba-Quant, which employs mixed-precision quantization with lightweight dynamic outlier detection. Specifically, we present a threshold-based outlier channel selection strategy for activations that is updated at every time step. Extensive experiments across vision and generative tasks show that our data-free OuroMamba surpasses existing data-driven PTQ techniques, achieving state-of-the-art performance across diverse quantization settings. Additionally, we implement efficient GPU kernels to achieve a practical latency speedup of up to 2.36×.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ol>
+    </div>
+</div>
